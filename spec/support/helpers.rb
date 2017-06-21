@@ -43,7 +43,7 @@ module Spec
     end
 
     def err
-      last_command.bundler_err
+      last_command.stderr
     end
 
     def exitstatus
